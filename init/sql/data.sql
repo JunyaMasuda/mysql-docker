@@ -42,7 +42,7 @@ USE smash;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO actor VALUES
+INSERT INTO USER VALUES
 (1,'mj','mj','imageURL'),
 (2,'wasabineko','wasabineko','imageURL')
 ;
