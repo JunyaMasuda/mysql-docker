@@ -48,7 +48,7 @@ INSERT INTO USER VALUES
 ;
 COMMIT;
 
-INSERT INTO USER VALUES
+INSERT INTO ENEMY VALUES
 (1,'mj','mj',now()),
 (2,'wasabineko','wasabineko',now())
 ;
