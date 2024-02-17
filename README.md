@@ -9,20 +9,14 @@ MySQLの環境をDockerでローカルに一瞬で作るためのリポジトリ
 git clone git@github.com:JunyaMasuda/mysql-docker.git
 ```
 
-2. データを永続化するためにディレクトリを作成する
 
-```
-cd mysql-docker
-mkdir db
-```
-
-3. クローンした`mysql-docker`に移動する
+2. クローンした`mysql-docker`に移動する
 
 ```
 cd mysql-docker
 ```
 
-4. 以下の Docker コマンドで MySQL を起動＆データ注入
+3. 以下の Docker コマンドで MySQL を起動＆データ注入
 
 ```
 docker-compose up -d
