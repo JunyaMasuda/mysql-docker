@@ -13,6 +13,12 @@ services:
       - data-volume:/var/lib/mysql
     ports:
       - "3306:3306"
+    networks:
+      - backend
 
 volumes:
- data-volume:
+  data-volume:
+
+networks:
+  backend:
+    external: true
