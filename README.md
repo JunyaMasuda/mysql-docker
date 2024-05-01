@@ -22,7 +22,7 @@ cd mysql-docker
 4. 以下の Docker コマンドで MySQL を起動＆データ注入
 
 ```
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 
